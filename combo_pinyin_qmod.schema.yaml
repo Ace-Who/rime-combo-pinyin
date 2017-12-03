@@ -112,7 +112,7 @@ chord_composer:
     - xform/^un$/wen/
     - xform/R$/er/
     # 当构成合法音节时, <uo> 省略 <u>, 声母为 <l> 时除外 (qmod:add)
-    - xform/^([zcsdgtkhmnr])o$/$1uo/
+    - xform/^([zcsdgtkhnr])o$/$1uo/
     - xform/^([zcs]h)o$/$1uo/
     # 漢語拼音方案的拼寫規則
     - xform/^i(ng?)$/yi$1/
