@@ -146,7 +146,7 @@ chord_composer:
   # 並擊過程中套用的式樣
   prompt_format:
     # 加方括弧
-    - "xform/^(.*)$/[$1]/"
+    - "xform/^(.*)$/»$1/"  # qmod:mod
 
 translator:
   dictionary: luna_pinyin
