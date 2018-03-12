@@ -110,6 +110,7 @@ chord_composer:
     # ‹en› 省略 ‹e›
     - xform/N$/en/
     - xform/^un$/wen/
+    - xform/^ii$/wen/  # qmod:add 活用，按 J 和 I 键比按 U 和 K 键更轻松
     - xform/R$/er/
     # 漢語拼音方案的拼寫規則
     - xform/^i(ng?)$/yi$1/
