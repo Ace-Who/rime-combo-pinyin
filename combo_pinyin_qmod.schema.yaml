@@ -72,6 +72,8 @@ chord_composer:
     - xform/^fb/m/
     - xform/^ld/n/
     - xform/^hg/r/
+    # qmod:add 活用，按 J 和 I 键比按 U 和 K 键更轻松
+    - xform/iI$/uN/
     # g,k,h 接 i/ü 時作 ji/ju, qi/qu, xi/xu
     - xform/^[g]([iV])/j$1/  # qmod:mod
     - xform/^[k]([iV])/q$1/  # qmod:mod
@@ -84,8 +86,6 @@ chord_composer:
     # 單擊時產生字符 , .
     - xform/^U$/,/
     - xform/^E$/./
-    # qmod:add 活用，按 J 和 I 键比按 U 和 K 键更轻松
-    - xform/iI$/uN/
     # 上排三鍵並擊 ong, uang
     - xform/(ua?)Io$/$1Ne/
     - xform/aI$/ai/
